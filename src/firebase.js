@@ -17,5 +17,6 @@ firebase.initializeApp(firebaseConfig);
 
 const firebaseDB = firebase.database();
 const firebaseMatches = firebaseDB.ref("matches");
+const firebasePromotions = firebaseDB.ref("promotions");
 
-export { firebaseDB, firebaseMatches };
+export { firebaseDB, firebaseMatches, firebasePromotions };
